@@ -1,9 +1,9 @@
-### user accessability R&d's (AccessGuide)
+# user accessability R&d's (AccessGuide)
 
 ## run all poc's
-# css poc
+### css poc command
 ``` npm run poc:css```
-# image recognition based poc
+### image recognition based poc command
 ``` npm run poc:image-recog```
-# readability poc
+### readability poc command
 ``` npm run poc:readability```
