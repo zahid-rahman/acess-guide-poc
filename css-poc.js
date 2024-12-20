@@ -1,3 +1,7 @@
+/**
+ * This POC ensures reading internal, inline and external CSS from node server which will be helping us to giving color/design suggestion and detecting color combination issue 
+ */
+
 import { JSDOM } from "jsdom";
 import CSSOM from "cssom";
 import fs from "fs";

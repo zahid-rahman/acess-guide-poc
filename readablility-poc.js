@@ -1,3 +1,7 @@
+/**
+ * This POC ensures the content readability and also find out bully and vulgar content from a paragraph
+ */
+
 import { retext } from "retext";
 import retextReadability from "retext-readability";
 import english from "retext-english";

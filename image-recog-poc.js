@@ -1,3 +1,6 @@
+/**
+ * This POC ensures checking image alt tag with some 3rd party api. This 3rd party api will give some tags based on given image. It will be helpful for checking the alt tag with the given tag. From the given tag we are recommending the best one
+ */
 import axios from "axios";
 import { envConfig } from "./configs/env.config.js";
 import { uploadFileToCloudinary } from "./utils/cloudinary.js";
