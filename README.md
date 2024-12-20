@@ -6,4 +6,4 @@
 # image recognition based poc
 ``` npm run poc:image-recog```
 # readability poc
-``` npm run poc:readabilit```
+``` npm run poc:readability```
