@@ -1,0 +1,18 @@
+.header-title {
+    color: red;
+}
+
+.paragraph {
+    color: green;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: transparent;
+    border-radius: 10px;
+    text-transform: capitalize;
+}

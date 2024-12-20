@@ -1,0 +1,29 @@
+{
+  "name": "user-access",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node readable.js",
+    "poc:css": "node css-poc.js",
+    "poc:readability": "node readablility-poc.js",
+    "poc:image-recog": "node image-recog-poc.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "cloudinary": "^2.5.1",
+    "cssom": "^0.5.0",
+    "dotenv": "^16.4.5",
+    "jsdom": "^25.0.1",
+    "retext": "^9.0.0",
+    "retext-english": "^5.0.0",
+    "retext-profanities": "^8.0.0",
+    "retext-readability": "^8.0.0",
+    "retext-simplify": "^8.0.0",
+    "vfile-reporter": "^8.1.1"
+  },
+  "type": "module"
+}
