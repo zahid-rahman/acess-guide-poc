@@ -35,19 +35,19 @@ async function main() {
   /**
    * This is for local url
    */
-  const imageUrl = "./assets/headphone.png";
+  // const imageUrl = "./assets/headphone.png";
   /** 
    * store image into cloudinary (cloud storage)
    * This is only applicable for local assets
    */
-  const url = await uploadFileToCloudinary(imageUrl, "IMAGE");
-  callApi(url);
+  // const url = await uploadFileToCloudinary(imageUrl, "IMAGE");
+  // callApi(url);
 
   /** 
    * This is for cloud url
    */
-  // const imageUrl = "https://panda-emart.netlify.app/images/banner-images/tv.png";
-  // callApi(url);
+  const imageUrl = "https://panda-emart.netlify.app/images/banner-images/tv.png";
+  callApi(imageUrl);
 }
 
 /** 
